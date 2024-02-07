@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PaketLearning,Chrome 121.0.0.0,,,07-02-2024 10:31:48,07-02-2024 10:32:53,1m - 5.362s,PASSED
+,,,,,,,
+Test Cases/TC_Login,Chrome 121.0.0.0,,,07-02-2024 10:31:48,07-02-2024 10:32:16,28.011s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,07-02-2024 10:31:48,07-02-2024 10:31:55,6.625s,PASSED
+"navigateToUrl(""https://www.dicoding.com/"")",Chrome 121.0.0.0,,,07-02-2024 10:31:55,07-02-2024 10:31:59,4.285s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/a_Masuk""))",Chrome 121.0.0.0,,,07-02-2024 10:31:59,07-02-2024 10:32:00,0.918s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/input_Masuk_login_email""), ""hanamaria2307@gmail.com"")",Chrome 121.0.0.0,,,07-02-2024 10:32:00,07-02-2024 10:32:02,1.933s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/input_Masuk_login_password""), ""hCc8x1UqSX8vfSLAHukwvg=="")",Chrome 121.0.0.0,,,07-02-2024 10:32:02,07-02-2024 10:32:05,2.653s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/button_Masuk""))",Chrome 121.0.0.0,,,07-02-2024 10:32:05,07-02-2024 10:32:08,2.629s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_Dicoding Indonesia/p_Semoga aktivitas belajarmu menyenangkan""), ""Semoga aktivitas belajarmu menyenangkan."")",Chrome 121.0.0.0,,,07-02-2024 10:32:08,07-02-2024 10:32:12,4.318s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 10:32:12,07-02-2024 10:32:14,2.090s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 10:32:14,07-02-2024 10:32:16,2.199s,PASSED
+,,,,,,,
+Test Cases/TC_PaketLangganan,Chrome 121.0.0.0,,,07-02-2024 10:32:16,07-02-2024 10:32:53,36.995s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,07-02-2024 10:32:16,07-02-2024 10:32:19,2.430s,PASSED
+"navigateToUrl(""https://www.dicoding.com/"")",Chrome 121.0.0.0,,,07-02-2024 10:32:19,07-02-2024 10:32:24,5.411s,PASSED
+"click(findTestObject(""Object Repository/PaketLangganan/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/a_Masuk""))",Chrome 121.0.0.0,,,07-02-2024 10:32:24,07-02-2024 10:32:25,0.664s,PASSED
+"setText(findTestObject(""Object Repository/PaketLangganan/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/input_Masuk_login_email""), ""hanamaria2307@gmail.com"")",Chrome 121.0.0.0,,,07-02-2024 10:32:25,07-02-2024 10:32:26,1.070s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PaketLangganan/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/input_Masuk_login_password""), ""hCc8x1UqSX8vfSLAHukwvg=="")",Chrome 121.0.0.0,,,07-02-2024 10:32:26,07-02-2024 10:32:26,0.547s,PASSED
+"click(findTestObject(""Object Repository/PaketLangganan/Page_Dicoding Indonesia - Bangun Karirmu Se_eb00a6/button_Masuk""))",Chrome 121.0.0.0,,,07-02-2024 10:32:26,07-02-2024 10:32:27,0.674s,PASSED
+"click(findTestObject(""Object Repository/PaketLangganan/Page_Dicoding Indonesia/a_Lanjut berlangganan""))",Chrome 121.0.0.0,,,07-02-2024 10:32:27,07-02-2024 10:32:31,3.983s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 10:32:31,07-02-2024 10:32:33,2.027s,PASSED
+"click(findTestObject(""Object Repository/PaketLangganan/Page_Biaya Investasi Belajar Kurikulum Glob_5cbbe8/a_Pilih paket""))",Chrome 121.0.0.0,,,07-02-2024 10:32:33,07-02-2024 10:32:34,1.045s,PASSED
+"click(findTestObject(""Object Repository/PaketLangganan/Page_Pembayaran Paket Langganan - Dicoding _c7409d/button_Bayar""))",Chrome 121.0.0.0,,,07-02-2024 10:32:34,07-02-2024 10:32:40,6.082s,PASSED
+"verifyElementText(findTestObject(""Object Repository/PaketLangganan/Page_Checkout - f0c460accddd/h2_Order Summary""), ""Order Summary"")",Chrome 121.0.0.0,,,07-02-2024 10:32:40,07-02-2024 10:32:43,2.334s,PASSED
+delay(2),Chrome 121.0.0.0,,,07-02-2024 10:32:43,07-02-2024 10:32:45,2.014s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 10:32:45,07-02-2024 10:32:53,8.564s,PASSED
